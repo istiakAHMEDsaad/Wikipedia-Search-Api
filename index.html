@@ -27,7 +27,7 @@
             <h1 class="lg:text-4xl md:text-3xl text-2xl md:font-bold font-semibold">Wiki Searcher</h1>
             <label class="swap swap-rotate">
                 <!-- this hidden checkbox controls the state -->
-                <input type="checkbox" class="theme-controller" value="synthwave" />
+                <input type="checkbox" class="theme-controller" value="business" />
 
                 <!-- sun icon -->
                 <svg class="swap-off h-10 w-10 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -47,6 +47,10 @@
             <form id="my-form" class="flex flex-col items-center justify-center space-y-4">
                 <!-- Search Box -->
                 <input class="block lg:text-3xl md:text-2xl text-lg w-80 md:min-w-96 lg:min-w-[32rem] py-3 text-center border rounded-md bg-white focus:shadow-lg focus:-translate-y-1" type="search" placeholder="What do you want to search">
+                <button id="search" class="border flex flex-row space-x-2 px-4 py-2 text-white rounded-lg bg-gray-500 hover:bg-slate-400 transition-all active:-translate-y-1">
+                        <i class="ri-search-line"></i>
+                        <p>Search</p>
+                </button>
                 <p id="result-count" class="text-center text-lg lg:text-2xl font-semibold">Resuls Count: 0</p>
             </form>
 
